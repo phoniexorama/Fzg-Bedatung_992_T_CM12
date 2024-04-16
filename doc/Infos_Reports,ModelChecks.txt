@@ -1,0 +1,1 @@
+Reports und ModelChecks wurden in CarMaker 10.2.3 durchgeführt.

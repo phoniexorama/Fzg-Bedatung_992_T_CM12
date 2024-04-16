@@ -1,0 +1,23 @@
+#  ==========================================================================
+#  Wavefront Material file
+#  Exported by Red-i Productions' "Riptide Pro"
+#  (a commercial plugin for Cinema 4D PC & Mac, R9.6 or later)
+#  
+#  Red-i Productions
+#  http://skinprops.com
+#  
+#  ==========================================================================
+
+newmtl reifen
+Ka 0.101961 0.101961 0.101961
+Kd 0.101961 0.101961 0.101961
+Ks 0.309804 0.309804 0.309804
+Tr 1.000000
+Ns 100
+
+newmtl felge
+Ka 0.384314 0.384314 0.384314
+Kd 0.674510 0.674510 0.674510
+Ks 1.0 1.0 1.0
+Tr 1.000000
+Ns 200.000000

@@ -1,0 +1,207 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Tire-MF52 2
+FileCreator = CarMaker 10.2.3
+
+Description:
+
+
+## General ###############################################################
+Side = right
+StandStill.cLong = 0.01
+StandStill.cSide = 0.2
+StandStill.vMax = 2.0
+
+
+## Visualization #########################################################
+FLoadMax = 10000.0
+NomWidth = 0.3050
+RimRadius = 0.2540
+
+
+## MF-Tire ###############################################################
+muRoad = 1.0
+
+# [MDI_HEADER]
+MDI_Header.FILE_TYPE = tir
+MDI_Header.FILE_VERSION = 3.0
+MDI_Header.FILE_FORMAT = ASCII
+
+# [UNITS]
+Units.LENGTH = meter
+Units.FORCE = newton
+Units.ANGLE = radians
+Units.MASS = kg
+Units.TIME = second
+
+# [MODEL]
+Model.PROPERTY_FILE_FORMAT = MF-TYRE
+Model.USE_MODE = 14
+Model.FITTYP = 6
+Model.TYRESIDE = RIGHT
+Model.LONGVL = 22.22
+
+# [DIMENSION]
+Dim.UNLOADED_RADIUS = 0.358
+Dim.WIDTH = 0.3050
+Dim.RIM_RADIUS = 0.2540
+Dim.RIM_WIDTH = 0.2921
+Dim.ASPECT_RATIO = 0.3000
+
+# [SHAPE]
+
+# [VERTICAL]
+Vertical.VERTICAL_STIFFNESS = 364331
+Vertical.VERTICAL_DAMPING = 50.0000
+Vertical.BREFF = 2.6617
+Vertical.DREFF = 0.3259
+Vertical.FREFF = 0.0000
+Vertical.FNOMIN = 6671
+
+# [RANGE]
+Range.KPUMIN = -1.5000
+Range.KPUMAX = 1.5000
+Range.ALPMIN = -1.5708
+Range.ALPMAX = 1.5708
+Range.CAMMIN = -0.2634
+Range.CAMMAX = 0.2633
+Range.FZMIN = 9.5920
+Range.FZMAX = 14501
+
+# [SCALING]
+Scale.LFZO = 1.0000
+Scale.LCX = 1.0000
+Scale.LMUX = 1.0700
+Scale.LEX = 1.0000
+Scale.LKX = 1.0000
+Scale.LHX = 1.0000
+Scale.LVX = 1.0000
+Scale.LGAX = 1.0000
+Scale.LCY = 1.0000
+Scale.LMUY = 0.96
+Scale.LEY = 1
+Scale.LKY = 0.75
+Scale.LHY = 1.0000
+Scale.LVY = 1.0000
+Scale.LGAY = 1.0000
+Scale.LTR = 1.0000
+Scale.LRES = 1.0000
+Scale.LGAZ = 1.0000
+Scale.LXAL = 1.0000
+Scale.LYKA = 1.0000
+Scale.LVYKA = 1.0000
+Scale.LS = 1.0000
+Scale.LSGKP = 1.0000
+Scale.LSGAL = 1
+Scale.LGYR = 1.0000
+Scale.LMX = 1.0000
+Scale.LVMX = 1.0000
+Scale.LMY = 1.0000
+
+# [LONGITUDINAL]
+Long.PCX1 = 1.4776
+Long.PDX1 = 1.3542
+Long.PDX2 = 0.0000
+Long.PDX3 = 1.4828
+Long.PEX1 = -0.1430
+Long.PEX2 = 0.1407
+Long.PEX3 = 0.0029
+Long.PEX4 = 0.0000
+Long.PKX1 = 36.8325
+Long.PKX2 = 11.6376
+Long.PKX3 = 0.0000
+Long.PHX1 = 0.0000
+Long.PHX2 = -0.0001
+Long.PVX1 = -0.0000
+Long.PVX2 = 0.0023
+Long.RBX1 = 25.4518
+Long.RBX2 = 10.8759
+Long.RCX1 = 1.0000
+Long.REX1 = 0.0000
+Long.REX2 = 0.0000
+Long.RHX1 = 0.0000
+Long.PTX1 = 2.0458
+Long.PTX2 = -0.5050
+Long.PTX3 = -0.0052
+
+# [OVERTURNING]
+OverTurn.QSX1 = 0.0010
+OverTurn.QSX2 = 0.8439
+OverTurn.QSX3 = -0.0011
+
+# [LATERAL]
+Lat.PCY1 = 1.5099
+Lat.PDY1 = 1.2300
+Lat.PDY2 = -0.1628
+Lat.PDY3 = 2.4735
+Lat.PEY1 = 0.0699
+Lat.PEY2 = 0.0075
+Lat.PEY3 = 0.0005
+Lat.PEY4 = -10.2635
+Lat.PKY1 = -47.9167
+Lat.PKY2 = 1.9432
+Lat.PKY3 = 0.0000
+Lat.PHY1 = 0.0025
+Lat.PHY2 = 0.0016
+Lat.PHY3 = 0.0000
+Lat.PVY1 = 0.0710
+Lat.PVY2 = -0.0006
+Lat.PVY3 = -1.2159
+Lat.PVY4 = 0.5086
+Lat.RBY1 = 15.3977
+Lat.RBY2 = 10.0272
+Lat.RBY3 = 0.0000
+Lat.RCY1 = 1.0000
+Lat.REY1 = 0.0000
+Lat.REY2 = 0.0000
+Lat.RHY1 = -0.0004
+Lat.RHY2 = 0.0000
+Lat.RVY1 = 0.0009
+Lat.RVY2 = 0.0000
+Lat.RVY3 = 0.0000
+Lat.RVY4 = 1.0000
+Lat.RVY5 = 1.0000
+Lat.RVY6 = 1.0000
+Lat.PTY1 = 2.1465
+Lat.PTY2 = 2.8172
+
+# [ROLLING]
+Roll.QSY1 = 0.0100
+Roll.QSY2 = 0.0000
+Roll.QSY3 = 0.0000
+Roll.QSY4 = 0.0000
+
+# [ALIGNING]
+Align.QBZ1 = 4.0687
+Align.QBZ2 = 0.0000
+Align.QBZ3 = 0.0000
+Align.QBZ4 = 0.2781
+Align.QBZ5 = 0.1916
+Align.QBZ9 = -13.4320
+Align.QBZ10 = 1.0000
+Align.QCZ1 = 1.1514
+Align.QDZ1 = 0.0680
+Align.QDZ2 = 0.0042
+Align.QDZ3 = 0.9213
+Align.QDZ4 = 0.0000
+Align.QDZ6 = 0.0033
+Align.QDZ7 = -0.0117
+Align.QDZ8 = -0.4604
+Align.QDZ9 = -0.1974
+Align.QEZ1 = -126.4269
+Align.QEZ2 = -0.9560
+Align.QEZ3 = 0.0000
+Align.QEZ4 = 0.0000
+Align.QEZ5 = -1.3491
+Align.QHZ1 = 0.0026
+Align.QHZ2 = 0.0064
+Align.QHZ3 = 0.0802
+Align.QHZ4 = 0.2274
+Align.SSZ1 = 0.0000
+Align.SSZ2 = 0.0000
+Align.SSZ3 = 0.0000
+Align.SSZ4 = 0.0000
+Align.QTZ1 = 0.0000
+Align.MBELT = 0.0000
+
+
+## Additional ############################################################

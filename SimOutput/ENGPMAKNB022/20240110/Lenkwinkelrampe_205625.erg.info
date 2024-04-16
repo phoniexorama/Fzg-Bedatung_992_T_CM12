@@ -1,0 +1,841 @@
+#INFOFILE1.1 - Do not remove this line!
+
+File.Format = erg
+File.ByteOrder = LittleEndian
+File.DateInSeconds = 1704916587
+File.DateLocal = 2024-01-10 20:56:27 Mitteleuropäische Zeit
+
+File.At.1.Name = Car.Distance
+File.At.1.Type = Double
+Quantity.Car.Distance.Unit = m
+
+File.At.2.Name = Car.WFL.rot
+File.At.2.Type = Double
+Quantity.Car.WFL.rot.Unit = rad
+
+File.At.3.Name = Car.WFR.rot
+File.At.3.Type = Double
+Quantity.Car.WFR.rot.Unit = rad
+
+File.At.4.Name = Car.WRL.rot
+File.At.4.Type = Double
+Quantity.Car.WRL.rot.Unit = rad
+
+File.At.5.Name = Car.WRR.rot
+File.At.5.Type = Double
+Quantity.Car.WRR.rot.Unit = rad
+
+File.At.6.Name = Time
+File.At.6.Type = Double
+Quantity.Time.Unit = s
+
+File.At.7.Name = Vhcl.sRoad
+File.At.7.Type = Double
+Quantity.Vhcl.sRoad.Unit = m
+
+File.At.8.Name = camberFLInterval
+File.At.8.Type = Double
+
+File.At.9.Name = camberFRInterval
+File.At.9.Type = Double
+
+File.At.10.Name = rollAngleGradient
+File.At.10.Type = Double
+
+File.At.11.Name = rollAngleInterval
+File.At.11.Type = Double
+
+File.At.12.Name = sideSlipInterval
+File.At.12.Type = Double
+
+File.At.13.Name = steerAngleInterval
+File.At.13.Type = Double
+
+File.At.14.Name = steerTorqueInterval
+File.At.14.Type = Double
+
+File.At.15.Name = toeInFLInterval
+File.At.15.Type = Double
+
+File.At.16.Name = toeInFRInterval
+File.At.16.Type = Double
+
+File.At.17.Name = trqAlignFLInterval
+File.At.17.Type = Double
+
+File.At.18.Name = trqAlignFRInterval
+File.At.18.Type = Double
+
+File.At.19.Name = yTireForceFLInterval
+File.At.19.Type = Double
+
+File.At.20.Name = yTireForceFRInterval
+File.At.20.Type = Double
+
+File.At.21.Name = yTireForceInterval
+File.At.21.Type = Double
+
+File.At.22.Name = yTireForceRLInterval
+File.At.22.Type = Double
+
+File.At.23.Name = yTireForceRRInterval
+File.At.23.Type = Double
+
+File.At.24.Name = yawAngleInterval
+File.At.24.Type = Double
+
+File.At.25.Name = yawRateInterval
+File.At.25.Type = Double
+
+File.At.26.Name = zTireForceFLInterval
+File.At.26.Type = Double
+
+File.At.27.Name = zTireForceFRInterval
+File.At.27.Type = Double
+
+File.At.28.Name = zTireForceRLInterval
+File.At.28.Type = Double
+
+File.At.29.Name = zTireForceRRInterval
+File.At.29.Type = Double
+
+File.At.30.Name = Brake.Hyd.Sys.pMC
+File.At.30.Type = Float
+Quantity.Brake.Hyd.Sys.pMC.Unit = bar
+
+File.At.31.Name = Brake.Hyd.Sys.pWB_FL
+File.At.31.Type = Float
+Quantity.Brake.Hyd.Sys.pWB_FL.Unit = bar
+
+File.At.32.Name = Brake.Hyd.Sys.pWB_FR
+File.At.32.Type = Float
+Quantity.Brake.Hyd.Sys.pWB_FR.Unit = bar
+
+File.At.33.Name = Brake.Hyd.Sys.pWB_RL
+File.At.33.Type = Float
+Quantity.Brake.Hyd.Sys.pWB_RL.Unit = bar
+
+File.At.34.Name = Brake.Hyd.Sys.pWB_RR
+File.At.34.Type = Float
+Quantity.Brake.Hyd.Sys.pWB_RR.Unit = bar
+
+File.At.35.Name = Car.CFL.rx
+File.At.35.Type = Float
+Quantity.Car.CFL.rx.Unit = rad
+
+File.At.36.Name = Car.CFL.ry
+File.At.36.Type = Float
+Quantity.Car.CFL.ry.Unit = rad
+
+File.At.37.Name = Car.CFL.rz
+File.At.37.Type = Float
+Quantity.Car.CFL.rz.Unit = rad
+
+File.At.38.Name = Car.CFL.tx
+File.At.38.Type = Float
+Quantity.Car.CFL.tx.Unit = m
+
+File.At.39.Name = Car.CFL.ty
+File.At.39.Type = Float
+Quantity.Car.CFL.ty.Unit = m
+
+File.At.40.Name = Car.CFL.tz
+File.At.40.Type = Float
+Quantity.Car.CFL.tz.Unit = m
+
+File.At.41.Name = Car.CFR.rx
+File.At.41.Type = Float
+Quantity.Car.CFR.rx.Unit = rad
+
+File.At.42.Name = Car.CFR.ry
+File.At.42.Type = Float
+Quantity.Car.CFR.ry.Unit = rad
+
+File.At.43.Name = Car.CFR.rz
+File.At.43.Type = Float
+Quantity.Car.CFR.rz.Unit = rad
+
+File.At.44.Name = Car.CFR.tx
+File.At.44.Type = Float
+Quantity.Car.CFR.tx.Unit = m
+
+File.At.45.Name = Car.CFR.ty
+File.At.45.Type = Float
+Quantity.Car.CFR.ty.Unit = m
+
+File.At.46.Name = Car.CFR.tz
+File.At.46.Type = Float
+Quantity.Car.CFR.tz.Unit = m
+
+File.At.47.Name = Car.CRL.rx
+File.At.47.Type = Float
+Quantity.Car.CRL.rx.Unit = rad
+
+File.At.48.Name = Car.CRL.ry
+File.At.48.Type = Float
+Quantity.Car.CRL.ry.Unit = rad
+
+File.At.49.Name = Car.CRL.rz
+File.At.49.Type = Float
+Quantity.Car.CRL.rz.Unit = rad
+
+File.At.50.Name = Car.CRL.tx
+File.At.50.Type = Float
+Quantity.Car.CRL.tx.Unit = m
+
+File.At.51.Name = Car.CRL.ty
+File.At.51.Type = Float
+Quantity.Car.CRL.ty.Unit = m
+
+File.At.52.Name = Car.CRL.tz
+File.At.52.Type = Float
+Quantity.Car.CRL.tz.Unit = m
+
+File.At.53.Name = Car.CRR.rx
+File.At.53.Type = Float
+Quantity.Car.CRR.rx.Unit = rad
+
+File.At.54.Name = Car.CRR.ry
+File.At.54.Type = Float
+Quantity.Car.CRR.ry.Unit = rad
+
+File.At.55.Name = Car.CRR.rz
+File.At.55.Type = Float
+Quantity.Car.CRR.rz.Unit = rad
+
+File.At.56.Name = Car.CRR.tx
+File.At.56.Type = Float
+Quantity.Car.CRR.tx.Unit = m
+
+File.At.57.Name = Car.CRR.ty
+File.At.57.Type = Float
+Quantity.Car.CRR.ty.Unit = m
+
+File.At.58.Name = Car.CRR.tz
+File.At.58.Type = Float
+Quantity.Car.CRR.tz.Unit = m
+
+File.At.59.Name = Car.Fr1.rx
+File.At.59.Type = Float
+Quantity.Car.Fr1.rx.Unit = rad
+
+File.At.60.Name = Car.Fr1.ry
+File.At.60.Type = Float
+Quantity.Car.Fr1.ry.Unit = rad
+
+File.At.61.Name = Car.Fr1.rz
+File.At.61.Type = Float
+Quantity.Car.Fr1.rz.Unit = rad
+
+File.At.62.Name = Car.Fr1.tx
+File.At.62.Type = Float
+Quantity.Car.Fr1.tx.Unit = m
+
+File.At.63.Name = Car.Fr1.ty
+File.At.63.Type = Float
+Quantity.Car.Fr1.ty.Unit = m
+
+File.At.64.Name = Car.Fr1.tz
+File.At.64.Type = Float
+Quantity.Car.Fr1.tz.Unit = m
+
+File.At.65.Name = Car.FxFL
+File.At.65.Type = Float
+Quantity.Car.FxFL.Unit = N
+
+File.At.66.Name = Car.FxFR
+File.At.66.Type = Float
+Quantity.Car.FxFR.Unit = N
+
+File.At.67.Name = Car.FxRL
+File.At.67.Type = Float
+Quantity.Car.FxRL.Unit = N
+
+File.At.68.Name = Car.FxRR
+File.At.68.Type = Float
+Quantity.Car.FxRR.Unit = N
+
+File.At.69.Name = Car.FyFL
+File.At.69.Type = Float
+Quantity.Car.FyFL.Unit = N
+
+File.At.70.Name = Car.FyFR
+File.At.70.Type = Float
+Quantity.Car.FyFR.Unit = N
+
+File.At.71.Name = Car.FyRL
+File.At.71.Type = Float
+Quantity.Car.FyRL.Unit = N
+
+File.At.72.Name = Car.FyRR
+File.At.72.Type = Float
+Quantity.Car.FyRR.Unit = N
+
+File.At.73.Name = Car.FzFL
+File.At.73.Type = Float
+Quantity.Car.FzFL.Unit = N
+
+File.At.74.Name = Car.FzFR
+File.At.74.Type = Float
+Quantity.Car.FzFR.Unit = N
+
+File.At.75.Name = Car.FzRL
+File.At.75.Type = Float
+Quantity.Car.FzRL.Unit = N
+
+File.At.76.Name = Car.FzRR
+File.At.76.Type = Float
+Quantity.Car.FzRR.Unit = N
+
+File.At.77.Name = Car.Gen.ax_1
+File.At.77.Type = Float
+Quantity.Car.Gen.ax_1.Unit = m/s^2
+
+File.At.78.Name = Car.Gen.ay_1
+File.At.78.Type = Float
+Quantity.Car.Gen.ay_1.Unit = m/s^2
+
+File.At.79.Name = Car.Gen.vx_1
+File.At.79.Type = Float
+Quantity.Car.Gen.vx_1.Unit = m/s
+
+File.At.80.Name = Car.LongSlipFL
+File.At.80.Type = Float
+
+File.At.81.Name = Car.LongSlipFR
+File.At.81.Type = Float
+
+File.At.82.Name = Car.LongSlipRL
+File.At.82.Type = Float
+
+File.At.83.Name = Car.LongSlipRR
+File.At.83.Type = Float
+
+File.At.84.Name = Car.Pitch
+File.At.84.Type = Float
+Quantity.Car.Pitch.Unit = rad
+
+File.At.85.Name = Car.Roll
+File.At.85.Type = Float
+Quantity.Car.Roll.Unit = rad
+
+File.At.86.Name = Car.SideSlipAngle
+File.At.86.Type = Float
+Quantity.Car.SideSlipAngle.Unit = rad
+
+File.At.87.Name = Car.TrqAlignFL
+File.At.87.Type = Float
+Quantity.Car.TrqAlignFL.Unit = Nm
+
+File.At.88.Name = Car.TrqAlignFR
+File.At.88.Type = Float
+Quantity.Car.TrqAlignFR.Unit = Nm
+
+File.At.89.Name = Car.TrqAlignRL
+File.At.89.Type = Float
+Quantity.Car.TrqAlignRL.Unit = Nm
+
+File.At.90.Name = Car.TrqAlignRR
+File.At.90.Type = Float
+Quantity.Car.TrqAlignRR.Unit = Nm
+
+File.At.91.Name = Car.TrqOvertFL
+File.At.91.Type = Float
+Quantity.Car.TrqOvertFL.Unit = Nm
+
+File.At.92.Name = Car.TrqOvertFR
+File.At.92.Type = Float
+Quantity.Car.TrqOvertFR.Unit = Nm
+
+File.At.93.Name = Car.TrqOvertRL
+File.At.93.Type = Float
+Quantity.Car.TrqOvertRL.Unit = Nm
+
+File.At.94.Name = Car.TrqOvertRR
+File.At.94.Type = Float
+Quantity.Car.TrqOvertRR.Unit = Nm
+
+File.At.95.Name = Car.TrqRollFL
+File.At.95.Type = Float
+Quantity.Car.TrqRollFL.Unit = Nm
+
+File.At.96.Name = Car.TrqRollFR
+File.At.96.Type = Float
+Quantity.Car.TrqRollFR.Unit = Nm
+
+File.At.97.Name = Car.TrqRollRL
+File.At.97.Type = Float
+Quantity.Car.TrqRollRL.Unit = Nm
+
+File.At.98.Name = Car.TrqRollRR
+File.At.98.Type = Float
+Quantity.Car.TrqRollRR.Unit = Nm
+
+File.At.99.Name = Car.Yaw
+File.At.99.Type = Float
+Quantity.Car.Yaw.Unit = rad
+
+File.At.100.Name = Car.YawRate
+File.At.100.Type = Float
+Quantity.Car.YawRate.Unit = rad/s
+
+File.At.101.Name = Car.ax
+File.At.101.Type = Float
+Quantity.Car.ax.Unit = m/s^2
+
+File.At.102.Name = Car.ay
+File.At.102.Type = Float
+Quantity.Car.ay.Unit = m/s^2
+
+File.At.103.Name = Car.muRoadFL
+File.At.103.Type = Float
+
+File.At.104.Name = Car.muRoadFR
+File.At.104.Type = Float
+
+File.At.105.Name = Car.muRoadRL
+File.At.105.Type = Float
+
+File.At.106.Name = Car.muRoadRR
+File.At.106.Type = Float
+
+File.At.107.Name = Car.tx
+File.At.107.Type = Float
+Quantity.Car.tx.Unit = m
+
+File.At.108.Name = Car.ty
+File.At.108.Type = Float
+Quantity.Car.ty.Unit = m
+
+File.At.109.Name = Car.v
+File.At.109.Type = Float
+Quantity.Car.v.Unit = m/s
+
+File.At.110.Name = Car.vFL
+File.At.110.Type = Float
+Quantity.Car.vFL.Unit = m/s
+
+File.At.111.Name = Car.vFR
+File.At.111.Type = Float
+Quantity.Car.vFR.Unit = m/s
+
+File.At.112.Name = Car.vRL
+File.At.112.Type = Float
+Quantity.Car.vRL.Unit = m/s
+
+File.At.113.Name = Car.vRR
+File.At.113.Type = Float
+Quantity.Car.vRR.Unit = m/s
+
+File.At.114.Name = DM.Brake
+File.At.114.Type = Float
+
+File.At.115.Name = DM.Clutch
+File.At.115.Type = Float
+
+File.At.116.Name = DM.Gas
+File.At.116.Type = Float
+
+File.At.117.Name = DM.ManDist
+File.At.117.Type = Float
+Quantity.DM.ManDist.Unit = m
+
+File.At.118.Name = DM.Steer.Ang
+File.At.118.Type = Float
+Quantity.DM.Steer.Ang.Unit = rad
+
+File.At.119.Name = DM.Steer.Trq
+File.At.119.Type = Float
+Quantity.DM.Steer.Trq.Unit = Nm
+
+File.At.120.Name = PT.Clutch.Trq_out
+File.At.120.Type = Float
+Quantity.PT.Clutch.Trq_out.Unit = Nm
+
+File.At.121.Name = PT.Control.Consump.Fuel.Abs
+File.At.121.Type = Float
+Quantity.PT.Control.Consump.Fuel.Abs.Unit = l
+
+File.At.122.Name = PT.Control.Consump.Fuel.Act
+File.At.122.Type = Float
+Quantity.PT.Control.Consump.Fuel.Act.Unit = l/100km
+
+File.At.123.Name = PT.Control.Consump.Fuel.Avg
+File.At.123.Type = Float
+Quantity.PT.Control.Consump.Fuel.Avg.Unit = l/100km
+
+File.At.124.Name = PT.Engine.Trq
+File.At.124.Type = Float
+Quantity.PT.Engine.Trq.Unit = Nm
+
+File.At.125.Name = PT.Engine.be
+File.At.125.Type = Float
+Quantity.PT.Engine.be.Unit = g/kWh
+
+File.At.126.Name = PT.Engine.rot
+File.At.126.Type = Float
+Quantity.PT.Engine.rot.Unit = rad
+
+File.At.127.Name = PT.Engine.rotv
+File.At.127.Type = Float
+Quantity.PT.Engine.rotv.Unit = rad/s
+
+File.At.128.Name = PT.WFL.rotv
+File.At.128.Type = Float
+Quantity.PT.WFL.rotv.Unit = rad/s
+
+File.At.129.Name = PT.WFR.rotv
+File.At.129.Type = Float
+Quantity.PT.WFR.rotv.Unit = rad/s
+
+File.At.130.Name = PT.WRL.rotv
+File.At.130.Type = Float
+Quantity.PT.WRL.rotv.Unit = rad/s
+
+File.At.131.Name = PT.WRR.rotv
+File.At.131.Type = Float
+Quantity.PT.WRR.rotv.Unit = rad/s
+
+File.At.132.Name = PwrD.Tire.CambDeflFL
+File.At.132.Type = Float
+Quantity.PwrD.Tire.CambDeflFL.Unit = W
+
+File.At.133.Name = PwrD.Tire.CambDeflFR
+File.At.133.Type = Float
+Quantity.PwrD.Tire.CambDeflFR.Unit = W
+
+File.At.134.Name = PwrD.Tire.LatSlipFL
+File.At.134.Type = Float
+Quantity.PwrD.Tire.LatSlipFL.Unit = W
+
+File.At.135.Name = PwrD.Tire.LatSlipFR
+File.At.135.Type = Float
+Quantity.PwrD.Tire.LatSlipFR.Unit = W
+
+File.At.136.Name = PwrD.Tire.LongSlipFL
+File.At.136.Type = Float
+Quantity.PwrD.Tire.LongSlipFL.Unit = W
+
+File.At.137.Name = PwrD.Tire.LongSlipFR
+File.At.137.Type = Float
+Quantity.PwrD.Tire.LongSlipFR.Unit = W
+
+File.At.138.Name = PwrD.Tire.RollResistFL
+File.At.138.Type = Float
+Quantity.PwrD.Tire.RollResistFL.Unit = W
+
+File.At.139.Name = PwrD.Tire.RollResistFR
+File.At.139.Type = Float
+Quantity.PwrD.Tire.RollResistFR.Unit = W
+
+File.At.140.Name = PwrD.Tire.ToeSlipFL
+File.At.140.Type = Float
+Quantity.PwrD.Tire.ToeSlipFL.Unit = W
+
+File.At.141.Name = PwrD.Tire.ToeSlipFR
+File.At.141.Type = Float
+Quantity.PwrD.Tire.ToeSlipFR.Unit = W
+
+File.At.142.Name = PwrD.Tire.TotalFL
+File.At.142.Type = Float
+Quantity.PwrD.Tire.TotalFL.Unit = W
+
+File.At.143.Name = PwrD.Tire.TotalFR
+File.At.143.Type = Float
+Quantity.PwrD.Tire.TotalFR.Unit = W
+
+File.At.144.Name = PwrL.Aero
+File.At.144.Type = Float
+Quantity.PwrL.Aero.Unit = W
+
+File.At.145.Name = PwrL.Brake
+File.At.145.Type = Float
+Quantity.PwrL.Brake.Unit = W
+
+File.At.146.Name = PwrL.PT
+File.At.146.Type = Float
+Quantity.PwrL.PT.Unit = W
+
+File.At.147.Name = PwrL.Tire
+File.At.147.Type = Float
+Quantity.PwrL.Tire.Unit = W
+
+File.At.148.Name = PwrL.Total
+File.At.148.Type = Float
+Quantity.PwrL.Total.Unit = W
+
+File.At.149.Name = PwrS.Aero
+File.At.149.Type = Float
+Quantity.PwrS.Aero.Unit = W
+
+File.At.150.Name = PwrS.Brake
+File.At.150.Type = Float
+Quantity.PwrS.Brake.Unit = W
+
+File.At.151.Name = PwrS.PT
+File.At.151.Type = Float
+Quantity.PwrS.PT.Unit = W
+
+File.At.152.Name = PwrS.Tire
+File.At.152.Type = Float
+Quantity.PwrS.Tire.Unit = W
+
+File.At.153.Name = PwrS.Total
+File.At.153.Type = Float
+Quantity.PwrS.Total.Unit = W
+
+File.At.154.Name = Steer.WhlAng
+File.At.154.Type = Float
+Quantity.Steer.WhlAng.Unit = rad
+
+File.At.155.Name = Vhcl.FL.LongSlip
+File.At.155.Type = Float
+
+File.At.156.Name = Vhcl.FL.SideSlip
+File.At.156.Type = Float
+Quantity.Vhcl.FL.SideSlip.Unit = rad
+
+File.At.157.Name = Vhcl.FR.LongSlip
+File.At.157.Type = Float
+
+File.At.158.Name = Vhcl.FR.SideSlip
+File.At.158.Type = Float
+Quantity.Vhcl.FR.SideSlip.Unit = rad
+
+File.At.159.Name = Vhcl.RL.LongSlip
+File.At.159.Type = Float
+
+File.At.160.Name = Vhcl.RL.SideSlip
+File.At.160.Type = Float
+Quantity.Vhcl.RL.SideSlip.Unit = rad
+
+File.At.161.Name = Vhcl.RR.LongSlip
+File.At.161.Type = Float
+
+File.At.162.Name = Vhcl.RR.SideSlip
+File.At.162.Type = Float
+Quantity.Vhcl.RR.SideSlip.Unit = rad
+
+File.At.163.Name = DM.GearNo
+File.At.163.Type = Int
+
+File.At.164.Name = DM.ManNo
+File.At.164.Type = Int
+
+File.At.165.Name = $none$
+File.At.165.Type = 4 Bytes
+
+Anim.Msg.0.Time = 0
+Anim.Msg.0.Class = Anim
+Anim.Msg.0.Id = 18
+Anim.Msg.0.Data:
+	N5ScfRJO5oYXfPL73+vsxfw+dgw3lJzpAAAAYgAAAGIAAAAAABJ3aW42NABPZmZs
+	aW5lADEwLjIuMwBDOi9DTV9Qcm9qZWN0cy9GemctQmVkYXR1bmdfOTkyX1RfQ00x
+	MABMZW5rd2lua2VscmFtcGUATGVua3dpbmtlbHJhbXBlAAABh2sK
+
+Anim.Msg.1.Time = 0
+Anim.Msg.1.Class = Anim
+Anim.Msg.1.Id = 50
+Anim.Msg.1.Data:
+	5A71H4NrwDIry1hL+zoOHmZdMvjkDvUvAAAAFwAAABcAAAAAADIAdGltZUludGVy
+	dmFsU3RhcnQANQAK
+
+Anim.Msg.2.Time = 0
+Anim.Msg.2.Class = Anim
+Anim.Msg.2.Id = 51
+Anim.Msg.2.Data:
+	nrZ4A27FWMdAo7E6P+US9LZQAGuetnqDAAAB0gAAAdIAAAAAADMAVGVzdFJ1bjpW
+	ZWhpY2xlAFBPNjg0X1BBXzk5Ml9UX0NPVVBFXzJXRF9CNlRfQlJEX1ZGRgBUaXJl
+	LjAARkFfMDgzX0Y5OTJDMkM0U2VyaWVGSU5BTF9QaTc2UDI4XzI0NV8zNV9SMjBf
+	OTFZXzg1al9wMjNfUGFwZW5idXJnX3YyX0NNLnRpcgBUaXJlLjEARkFfMDgzX0Y5
+	OTJDMkM0U2VyaWVGSU5BTF9QaTc2UDI4XzI0NV8zNV9SMjBfOTFZXzg1al9wMjNf
+	UGFwZW5idXJnX3YyX0NNLnRpcgBUaXJlLjIARkFfMDgzX1I5OTJDMkM0U2VyaWVG
+	SU5BTF9QaTc2UDI4XzMwNV8zMF9SMjFfOTFZXzExSl9wMjZfUGFwZW5idXJnX3Yy
+	X0NNLnRpcgBUaXJlLjMARkFfMDgzX1I5OTJDMkM0U2VyaWVGSU5BTF9QaTc2UDI4
+	XzMwNV8zMF9SMjFfOTFZXzExSl9wMjZfUGFwZW5idXJnX3YyX0NNLnRpcgBTaW1Q
+	YXJhbWV0ZXJzOkRTdG9yZS5PdXRwdXRRdWFudGl0aWVzAE91dHB1dFF1YW50aXRp
+	ZXNfMTBfMjAyNDAxMTBfMjA1NjI0AAoK
+
+Anim.Msg.3.Time = 0
+Anim.Msg.3.Class = Anim
+Anim.Msg.3.Id = 52
+Anim.Msg.3.Data:
+	SjHfJHkLImKl2ljRwIxVuMQnuk5KMdPIAAAJpQAACaUAAAAAADQAVGVzdE1nci5D
+	bWRzABooZmlyc3QoKSA/IFF1Ojp5VGlyZUZvcmNlSW50ZXJ2YWw9MCkgOyB5VGly
+	ZUZvcmNlSW50ZXJ2YWw9KENhci5GeVJSICsgQ2FyLkZ5UkwgKyBDYXIuRnlGUiAr
+	IENhci5GeUZMKSoodD4kdGltZUludGVydmFsU3RhcnQpAGZpcnN0KCkgPyBRdTo6
+	c3RlZXJBbmdsZUludGVydmFsID0gMDsgc3RlZXJBbmdsZUludGVydmFsID0gRHJp
+	dmVyLlN0ZWVyLkFuZyoodD4kdGltZUludGVydmFsU3RhcnQpAGZpcnN0KCkgPyBR
+	dTo6c3RlZXJUb3JxdWVJbnRlcnZhbCA9IDA7IHN0ZWVyVG9ycXVlSW50ZXJ2YWwg
+	PSBTdGVlci5XaGxUcnEqKHQ+JHRpbWVJbnRlcnZhbFN0YXJ0KQBmaXJzdCgpID8g
+	UXU6OnNpZGVTbGlwSW50ZXJ2YWwgPSAwOyBzaWRlU2xpcEludGVydmFsID0gQ2Fy
+	LlNpZGVTbGlwQW5nbGUqKHQ+JHRpbWVJbnRlcnZhbFN0YXJ0KQBmaXJzdCgpID8g
+	UXU6OnJvbGxBbmdsZUludGVydmFsID0gMDsgcm9sbEFuZ2xlSW50ZXJ2YWwgPSBD
+	YXIuUm9sbCoodD4kdGltZUludGVydmFsU3RhcnQpAGZpcnN0KCkgPyBRdTo6cm9s
+	bEFuZ2xlR3JhZGllbnQgPSAwOyByb2xsQW5nbGVHcmFkaWVudCA9IENhci5Sb2xs
+	L0Nhci5heSoodD42KSoodDwyMikAZmlyc3QoKSA/IFF1Ojp5YXdSYXRlSW50ZXJ2
+	YWwgPSAwOyB5YXdSYXRlSW50ZXJ2YWwgPSBDYXIuWWF3UmF0ZSoodD4kdGltZUlu
+	dGVydmFsU3RhcnQpAGZpcnN0KCkgPyBRdTo6eWF3QW5nbGVJbnRlcnZhbCA9IDA7
+	IHlhd0FuZ2xlSW50ZXJ2YWwgPSBDYXIuWWF3Kih0PiR0aW1lSW50ZXJ2YWxTdGFy
+	dCkAZmlyc3QoKSA/IFF1Ojp4VGlyZUZvcmNlUkxJbnRlcnZhbCA9IDA7IHhUaXJl
+	Rm9yY2VSTEludGVydmFsID0gQ2FyLkZ4UkwqKHQ+JHRpbWVJbnRlcnZhbFN0YXJ0
+	KQBmaXJzdCgpID8gUXU6OnhUaXJlRm9yY2VSUkludGVydmFsID0gMDsgeFRpcmVG
+	b3JjZVJSSW50ZXJ2YWwgPSBDYXIuRnhSUioodD4kdGltZUludGVydmFsU3RhcnQp
+	AGZpcnN0KCkgPyBRdTo6eFRpcmVGb3JjZUZMSW50ZXJ2YWwgPSAwOyB4VGlyZUZv
+	cmNlRkxJbnRlcnZhbCA9IENhci5GeEZMKih0PiR0aW1lSW50ZXJ2YWxTdGFydCkA
+	Zmlyc3QoKSA/IFF1Ojp4VGlyZUZvcmNlRlJJbnRlcnZhbCA9IDA7IHhUaXJlRm9y
+	Y2VGUkludGVydmFsID0gQ2FyLkZ4RlIqKHQ+JHRpbWVJbnRlcnZhbFN0YXJ0KQBm
+	aXJzdCgpID8gUXU6OnlUaXJlRm9yY2VSTEludGVydmFsID0gMDsgeVRpcmVGb3Jj
+	ZVJMSW50ZXJ2YWwgPSBDYXIuRnlSTCoodD4kdGltZUludGVydmFsU3RhcnQpAGZp
+	cnN0KCkgPyBRdTo6eVRpcmVGb3JjZVJSSW50ZXJ2YWwgPSAwOyB5VGlyZUZvcmNl
+	UlJJbnRlcnZhbCA9IENhci5GeVJSKih0PiR0aW1lSW50ZXJ2YWxTdGFydCkAZmly
+	c3QoKSA/IFF1Ojp5VGlyZUZvcmNlRkxJbnRlcnZhbCA9IDA7IHlUaXJlRm9yY2VG
+	TEludGVydmFsID0gQ2FyLkZ5RkwqKHQ+JHRpbWVJbnRlcnZhbFN0YXJ0KQBmaXJz
+	dCgpID8gUXU6OnlUaXJlRm9yY2VGUkludGVydmFsID0gMDsgeVRpcmVGb3JjZUZS
+	SW50ZXJ2YWwgPSBDYXIuRnlGUioodD4kdGltZUludGVydmFsU3RhcnQpAGZpcnN0
+	KCkgPyBRdTo6elRpcmVGb3JjZVJMSW50ZXJ2YWwgPSAwOyB6VGlyZUZvcmNlUkxJ
+	bnRlcnZhbCA9IENhci5GelJMKih0PiR0aW1lSW50ZXJ2YWxTdGFydCkAZmlyc3Qo
+	KSA/IFF1Ojp6VGlyZUZvcmNlUlJJbnRlcnZhbCA9IDA7IHpUaXJlRm9yY2VSUklu
+	dGVydmFsID0gQ2FyLkZ6UlIqKHQ+JHRpbWVJbnRlcnZhbFN0YXJ0KQBmaXJzdCgp
+	ID8gUXU6OnpUaXJlRm9yY2VGTEludGVydmFsID0gMDsgelRpcmVGb3JjZUZMSW50
+	ZXJ2YWwgPSBDYXIuRnpGTCoodD4kdGltZUludGVydmFsU3RhcnQpAGZpcnN0KCkg
+	PyBRdTo6elRpcmVGb3JjZUZSSW50ZXJ2YWwgPSAwOyB6VGlyZUZvcmNlRlJJbnRl
+	cnZhbCA9IENhci5GekZSKih0PiR0aW1lSW50ZXJ2YWxTdGFydCkAZmlyc3QoKSA/
+	IFF1Ojp0b2VJbkZMSW50ZXJ2YWwgPSAwOyB0b2VJbkZMSW50ZXJ2YWwgPSBDYXIu
+	Q0ZMLnJ6Kih0PiR0aW1lSW50ZXJ2YWxTdGFydCkAZmlyc3QoKSA/IFF1Ojp0b2VJ
+	bkZSSW50ZXJ2YWwgPSAwOyB0b2VJbkZSSW50ZXJ2YWwgPSBDYXIuQ0ZSLnJ6Kih0
+	PiR0aW1lSW50ZXJ2YWxTdGFydCkAZmlyc3QoKSA/IFF1OjpjYW1iZXJGTEludGVy
+	dmFsID0gMDsgY2FtYmVyRkxJbnRlcnZhbCA9IENhci5DRkwucngqKHQ+JHRpbWVJ
+	bnRlcnZhbFN0YXJ0KQBmaXJzdCgpID8gUXU6OmNhbWJlckZSSW50ZXJ2YWwgPSAw
+	OyBjYW1iZXJGUkludGVydmFsID0gQ2FyLkNGUi5yeCoodD4kdGltZUludGVydmFs
+	U3RhcnQpAGZpcnN0KCkgPyBRdTo6dHJxQWxpZ25GTEludGVydmFsID0gMDsgdHJx
+	QWxpZ25GTEludGVydmFsID0gQ2FyLlRycUFsaWduRkwqKHQ+JHRpbWVJbnRlcnZh
+	bFN0YXJ0KQBmaXJzdCgpID8gUXU6OnRycUFsaWduRlJJbnRlcnZhbCA9IDA7IHRy
+	cUFsaWduRlJJbnRlcnZhbCA9IENhci5UcnFBbGlnbkZSKih0PiR0aW1lSW50ZXJ2
+	YWxTdGFydCkA
+
+Anim.Msg.4.Time = 0
+Anim.Msg.4.Class = Anim
+Anim.Msg.4.Id = 21
+Anim.Msg.4.Data:
+	BdhXgbLVZ1+dLfRUA5cMfWz2PXEF2FcdAAAAaAAAAGgAAAAAABUAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK
+
+Anim.VehicleClass = Car
+Anim.Vehicle.MovieSkin = 992_Carrera_100_percent_config_CM.obj
+
+Anim.Msg.5.Time = 0
+Anim.Msg.5.Class = Anim
+Anim.Msg.5.Id = 11
+Anim.Msg.5.Data:
+	sFSwUVjoFlNN8qMrLBnwUsVbdAGwVLFhAAAA2AAAANgAAAAAAAsEAAACAAAAAAAA
+	P2ZmZgAAAABAkAAAv2ZmZj+mZmYAAAAAAAAAAAAAAAA/zxFjAAAAAD8NxplEnoy0
+	ROsEd76zMzMAAAAAPrhR7EBMzM4/TMwkPsg7E0BMzM6/TMwkPsg7Ez9AAAY/RtI0
+	Ps+HlT9AAAa/RtI0Ps+HlQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	vrMzMwAAAAA+uFHs
+
+Anim.Msg.6.Time = 0
+Anim.Msg.6.Class = Anim
+Anim.Msg.6.Id = 15
+Anim.Msg.6.Data:
+	bPo0f4VQz+Q+IbBTMfg2F3/7L4Vs+jS3AAAAiAAAAIgAAAAAAA8EAAAAAAAAAQAA
+	Pq5jID6CDEoAAAAAPnrhSIAAAAAAAAAARhxAAAH/AAA+rmMgPoIMSoAAAAA+euFI
+	AAAAAAAAAABGHEAAAgEAAD63S8c+ggxKAAAAAD6cKPaAAAAAAAAAAEYcQAAD/wAA
+	PrdLxz6CDEqAAAAAPpwo9gAAAAAAAAAARhxAAAoK
+
+Anim.Msg.7.Time = 0
+Anim.Msg.7.Class = Anim
+Anim.Msg.7.Id = 23
+Anim.Msg.7.Data:
+	FnePIgsvG/ECyGJiHzI1Qv/ClsoWd4/6AAAAlAAAAJQAAAAAABcAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoK
+
+Anim.Msg.8.Time = 0
+Anim.Msg.8.Class = Instr
+Anim.Msg.8.Id = 0
+Anim.Msg.8.Data:
+	0xsSfd8ZcY6L3pi9c/ZzK+hSEpHTGxJRAAAAFAAAABQAAAAAAAAAAAAGAAFF5mcj
+	Q6gG2wAAAAEK
+
+Anim.Msg.9.Time = 0
+Anim.Msg.9.Class = Anim
+Anim.Msg.9.Id = 22
+Anim.Msg.9.Data:
+	fJluuMVUA58mXy+zodfboGWsjQB8mW6UAAAAFAAAABQAAAAAABYAAAAGAAFF5mcj
+	Q6gG2wAAAAEK
+
+Testrun = Lenkwinkelrampe
+
+SimParam.DeltaT = 0.001
+
+NamedValues.Count = 1
+NamedValues.0.Name = timeIntervalStart
+NamedValues.0.Value = 5
+
+KeyValues.Count = 7
+KeyValues.0.Key = SimParameters:DStore.OutputQuantities
+KeyValues.0.Type = str
+KeyValues.0.Value = OutputQuantities_10_20240110_205624
+KeyValues.1.Key = TestMgr.Cmds
+KeyValues.1.Type = txt
+KeyValues.1.Value:
+	(first() ? Qu::yTireForceInterval=0) ; yTireForceInterval=(Car.FyRR + Car.FyRL + Car.FyFR + Car.FyFL)*(t>$timeIntervalStart)
+	first() ? Qu::steerAngleInterval = 0; steerAngleInterval = Driver.Steer.Ang*(t>$timeIntervalStart)
+	first() ? Qu::steerTorqueInterval = 0; steerTorqueInterval = Steer.WhlTrq*(t>$timeIntervalStart)
+	first() ? Qu::sideSlipInterval = 0; sideSlipInterval = Car.SideSlipAngle*(t>$timeIntervalStart)
+	first() ? Qu::rollAngleInterval = 0; rollAngleInterval = Car.Roll*(t>$timeIntervalStart)
+	first() ? Qu::rollAngleGradient = 0; rollAngleGradient = Car.Roll/Car.ay*(t>6)*(t<22)
+	first() ? Qu::yawRateInterval = 0; yawRateInterval = Car.YawRate*(t>$timeIntervalStart)
+	first() ? Qu::yawAngleInterval = 0; yawAngleInterval = Car.Yaw*(t>$timeIntervalStart)
+	first() ? Qu::xTireForceRLInterval = 0; xTireForceRLInterval = Car.FxRL*(t>$timeIntervalStart)
+	first() ? Qu::xTireForceRRInterval = 0; xTireForceRRInterval = Car.FxRR*(t>$timeIntervalStart)
+	first() ? Qu::xTireForceFLInterval = 0; xTireForceFLInterval = Car.FxFL*(t>$timeIntervalStart)
+	first() ? Qu::xTireForceFRInterval = 0; xTireForceFRInterval = Car.FxFR*(t>$timeIntervalStart)
+	first() ? Qu::yTireForceRLInterval = 0; yTireForceRLInterval = Car.FyRL*(t>$timeIntervalStart)
+	first() ? Qu::yTireForceRRInterval = 0; yTireForceRRInterval = Car.FyRR*(t>$timeIntervalStart)
+	first() ? Qu::yTireForceFLInterval = 0; yTireForceFLInterval = Car.FyFL*(t>$timeIntervalStart)
+	first() ? Qu::yTireForceFRInterval = 0; yTireForceFRInterval = Car.FyFR*(t>$timeIntervalStart)
+	first() ? Qu::zTireForceRLInterval = 0; zTireForceRLInterval = Car.FzRL*(t>$timeIntervalStart)
+	first() ? Qu::zTireForceRRInterval = 0; zTireForceRRInterval = Car.FzRR*(t>$timeIntervalStart)
+	first() ? Qu::zTireForceFLInterval = 0; zTireForceFLInterval = Car.FzFL*(t>$timeIntervalStart)
+	first() ? Qu::zTireForceFRInterval = 0; zTireForceFRInterval = Car.FzFR*(t>$timeIntervalStart)
+	first() ? Qu::toeInFLInterval = 0; toeInFLInterval = Car.CFL.rz*(t>$timeIntervalStart)
+	first() ? Qu::toeInFRInterval = 0; toeInFRInterval = Car.CFR.rz*(t>$timeIntervalStart)
+	first() ? Qu::camberFLInterval = 0; camberFLInterval = Car.CFL.rx*(t>$timeIntervalStart)
+	first() ? Qu::camberFRInterval = 0; camberFRInterval = Car.CFR.rx*(t>$timeIntervalStart)
+	first() ? Qu::trqAlignFLInterval = 0; trqAlignFLInterval = Car.TrqAlignFL*(t>$timeIntervalStart)
+	first() ? Qu::trqAlignFRInterval = 0; trqAlignFRInterval = Car.TrqAlignFR*(t>$timeIntervalStart)
+KeyValues.2.Key = TestRun:Vehicle
+KeyValues.2.Type = str
+KeyValues.2.Value = PO684_PA_992_T_COUPE_2WD_B6T_BRD_VFF
+KeyValues.3.Key = Tire.0
+KeyValues.3.Type = str
+KeyValues.3.Value = FA_083_F992C2C4SerieFINAL_Pi76P28_245_35_R20_91Y_85j_p23_Papenburg_v2_CM.tir
+KeyValues.4.Key = Tire.1
+KeyValues.4.Type = str
+KeyValues.4.Value = FA_083_F992C2C4SerieFINAL_Pi76P28_245_35_R20_91Y_85j_p23_Papenburg_v2_CM.tir
+KeyValues.5.Key = Tire.2
+KeyValues.5.Type = str
+KeyValues.5.Value = FA_083_R992C2C4SerieFINAL_Pi76P28_305_30_R21_91Y_11J_p26_Papenburg_v2_CM.tir
+KeyValues.6.Key = Tire.3
+KeyValues.6.Type = str
+KeyValues.6.Value = FA_083_R992C2C4SerieFINAL_Pi76P28_305_30_R21_91Y_11J_p26_Papenburg_v2_CM.tir
+
+GPUSensors.Count = 0
+
+Comment:
+	For more details see session logfile
+
+CarMaker.NumVersion = 100203
+CarMaker.Version = 10.2.3
+CarMaker.Version.MatSupp = 10.2.2
+CarMaker.Version.Apo = 1.37.2
+CarMaker.Version.Info = 1.24
+CarMaker.Version.Driver = 10.2
+CarMaker.Version.Road = 10.2.3
+CarMaker.Version.Tire = 9.0.2
+

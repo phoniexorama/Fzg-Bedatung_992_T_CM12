@@ -1,0 +1,14 @@
+#INFOFILE1
+# Description file
+
+File.Format = erg
+File.ByteOrder = LittleEndian
+
+CarMaker.Version =	10.2.3
+App.Version =		CarMaker 10.2.3 - Car_Generic
+App.BuildVersion =	3
+TestRun.Vehicle =	PO684_PA_992_T_COUPE_2WD_B6T_BRD_VFF
+TestRun.Tire.0 =	
+TestRun.Tire.1 =	
+TestRun.Tire.2 =	
+TestRun.Tire.3 =	
