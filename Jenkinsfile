@@ -13,9 +13,10 @@ pipeline {
         VFF_FOLDER_PATH = "${WORKSPACE}\\Data\\Vehicle"
         DAT_FOLDER_PATH = "${WORKSPACE}\\SimOutput\\ENGPMAKNB022\\log"
         EXCEL_FOLDER_PATH = "${WORKSPACE}\\VehicleInfoExcel"
-        BATCH_SCRIPT_PATH = "${WORKSPACE}\\carmakerTestseries.bat"
+        BATCH_SCRIPT_PATH = "${WORKSPACE}\\carmaker.bat"
         TEST_SERIES_FOLDER_PATH = "${WORKSPACE}\\Data\\TestRun"
         FORMAT_FILE_CONFIG_PATH = "${WORKSPACE}\\Data\\Config\\Lenkwinkelrampe_Temp"
+        MODELCHECK_PATH = "${WORKSPACE}\\ModelCheck"
     }
 
     stages {
@@ -62,8 +63,8 @@ pipeline {
                 script {
                     // Call the Python script for running test manager
                     //bat "python runtestmanager.py"
-                    def fileName = 'carmakerTestseries.bat'
-                    def sourcePath = 'bat/carmakerTestseries.bat'
+                    def fileName = 'carmaker.bat'
+                    def sourcePath = 'bat/carmaker.bat'
                     def targetPath = "${env.WORKSPACE}" // Use Jenkins workspace as target
                     def tclFile = 'CMGUI_RemCtrl.tcl'
                     def tclSourcePath = 'tcl/CMGUI_RemCtrl.tcl'
@@ -76,6 +77,16 @@ pipeline {
                     stepCopyFile(tclFile, tclSourcePath, tclDesPath)
                     
                     stepRunTestManager()
+                }
+            }
+        }
+
+        stage('Run ModelCheck') {
+            steps {
+                script {
+                    // Call the Python script for running test manager
+                    //bat "python modelcheck.py                    
+                    stepRunModelCheck()
                 }
             }
         }
@@ -111,7 +122,9 @@ pipeline {
                         "${workspace}\\Data\\Tire": "${dataDirectoryPath}\\Tire",
                         "${workspace}\\Data\\Pic": "${dataDirectoryPath}\\Pic",
                         "${workspace}\\Data\\Vehicle": "${dataDirectoryPath}\\Vehicle",
-                        "${workspace}\\Movie": "${mainDirectoryPath}\\Movie"
+                        "${workspace}\\Movie": "${mainDirectoryPath}\\Movie",
+                        "${workspace}\\doc": "${mainDirectoryPath}\\doc",
+                        "${workspace}\\ModelCheck": "${mainDirectoryPath}\\ModelCheck"
                     ]
                                     
                     // Copy folders with recursive content from source paths to corresponding destination paths
