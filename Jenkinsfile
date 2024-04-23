@@ -13,9 +13,11 @@ pipeline {
         VFF_FOLDER_PATH = "${WORKSPACE}\\Data\\Vehicle"
         DAT_FOLDER_PATH = "${WORKSPACE}\\SimOutput\\ENGPMAKNB022\\log"
         EXCEL_FOLDER_PATH = "${WORKSPACE}\\VehicleInfoExcel"
-        BATCH_SCRIPT_PATH = "${WORKSPACE}\\carmaker.bat"
+        BATCH_SCRIPT_PATH = "${WORKSPACE}\\carmaker_Frg-Bedatung_Cayenne_E4_CM12.bat"
         TEST_SERIES_FOLDER_PATH = "${WORKSPACE}\\Data\\TestRun"
         FORMAT_FILE_CONFIG_PATH = "${WORKSPACE}\\Data\\Config\\Lenkwinkelrampe_Temp"
+        BATCH_SCRIPT_NAME = 'carmaker_Fzg-Bedatung_992_T_CM12.bat'
+        TCL_SCRIPT_NAME = 'CMGUI_RemCtrl.tcl'
         MODELCHECK_PATH = "${WORKSPACE}\\ModelCheck"
     }
 
@@ -63,11 +65,11 @@ pipeline {
                 script {
                     // Call the Python script for running test manager
                     //bat "python runtestmanager.py"
-                    def fileName = 'carmaker.bat'
-                    def sourcePath = 'bat/carmaker.bat'
+                    def fileName = 'carmaker_Frg-Bedatung_Cayenne_E4_CM12.bat'
+                    def sourcePath = "bat//${env.BATCH_SCRIPT_NAME}"
                     def targetPath = "${env.WORKSPACE}" // Use Jenkins workspace as target
-                    def tclFile = 'CMGUI_RemCtrl.tcl'
-                    def tclSourcePath = 'tcl/CMGUI_RemCtrl.tcl'
+                    def tclFile = "${env.TCL_SCRIPT_NAME}"
+                    def tclSourcePath = "tcl//${env.TCL_SCRIPT_NAME}"
                     def tclDesPath = "${env.WORKSPACE}\\Data\\Script\\Examples"
                     
                     // Call the copyFile function to copy the file
@@ -124,7 +126,7 @@ pipeline {
                         "${workspace}\\Data\\Vehicle": "${dataDirectoryPath}\\Vehicle",
                         "${workspace}\\Movie": "${mainDirectoryPath}\\Movie",
                         "${workspace}\\doc": "${mainDirectoryPath}\\doc",
-                        "${workspace}\\ModelCheck": "${mainDirectoryPath}\\ModelCheck"
+                        "${workspace}\\ModelCheck": "${mainDirectoryPath}\\doc\\ModelCheck"
                     ]
                                     
                     // Copy folders with recursive content from source paths to corresponding destination paths
