@@ -16,7 +16,7 @@ pipeline {
         BATCH_SCRIPT_PATH = "${WORKSPACE}\\${BATCH_SCRIPT_NAME}"
         TEST_SERIES_FOLDER_PATH = "${WORKSPACE}\\Data\\TestRun"
         FORMAT_FILE_CONFIG_PATH = "${WORKSPACE}\\Data\\Config\\Lenkwinkelrampe_Temp"
-        BATCH_SCRIPT_NAME = "carmaker_${WORKSPACE}.bat"
+        BATCH_SCRIPT_NAME = "carmaker_${PROJECT_NAME}.bat"
         TCL_SCRIPT_NAME = 'CMGUI_RemCtrl.tcl'
         MODELCHECK_PATH = "${WORKSPACE}\\ModelCheck"
         PROJECT_NAME = "Fzg-Bedatung_992_T_CM12"
