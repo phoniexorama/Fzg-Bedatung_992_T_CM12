@@ -8,7 +8,7 @@ Description:
 	""
 	Im TestManager können die Variablen xxxInterval dazu genutzt werden das Zeitinterval,
 	in welchem geplottet werden soll, einzugrenzen.
-Vehicle = PO546_E4_Cayenne_SUV_TOP_VFF
+Vehicle = PO684_PA_992_T_COUPE_2WD_B6T_BRD_VFF
 Trailer =
 Tire.0 =
 Tire.1 =

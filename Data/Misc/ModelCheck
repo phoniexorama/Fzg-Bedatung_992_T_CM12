@@ -1,6 +1,6 @@
-#INFOFILE1.1 - Do not remove this line!
+#INFOFILE1.1 (UTF-8) - Do not remove this line!
 FileIdent = CarMaker-ModelCheck 9
-FileCreator = CarMaker 10.2.3 2022-11-11
+FileCreator = CarMaker 12.0.2 2023-12-11
 OutputDir = ModelCheck
 Reference.Show = 0
 VehicleConf.Hide = 0
